@@ -9,7 +9,7 @@ function OrderItem({ order, onDelete }) {
        <p>
         Price: {order.price}, Dish: {order.dish}, Table: {order.table}
       </p>
-      <button onClick={onDelete}>Delete Order</button>
+      <button name="delete" onClick={onDelete}>Delete Order</button>
     </div>
   );
 }

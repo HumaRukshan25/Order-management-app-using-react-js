@@ -88,7 +88,7 @@ function OrderList() {
             ))}
           </select>
         </label>
-        <button type="submit">Add to Bill</button>
+        <button name="add" type="submit">Add to Bill</button>
       </form>
       <div><h1>Orders</h1></div>
       {/* Display orders grouped by table */}
